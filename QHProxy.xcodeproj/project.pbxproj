@@ -1,0 +1,832 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24CE9D8F4FD879274CEE09CD /* libPods-QHProxy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9E9A6F0C82D91DE560B406 /* libPods-QHProxy.a */; };
+		2F74E1551FECABB6006CD78B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F74E1541FECABB6006CD78B /* AppDelegate.m */; };
+		2F74E1581FECABB6006CD78B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F74E1571FECABB6006CD78B /* ViewController.m */; };
+		2F74E15B1FECABB6006CD78B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F74E1591FECABB6006CD78B /* Main.storyboard */; };
+		2F74E15E1FECABB6006CD78B /* QHProxy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F74E15C1FECABB6006CD78B /* QHProxy.xcdatamodeld */; };
+		2F74E1601FECABB6006CD78B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F74E15F1FECABB6006CD78B /* Assets.xcassets */; };
+		2F74E1631FECABB6006CD78B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F74E1611FECABB6006CD78B /* LaunchScreen.storyboard */; };
+		2F74E1661FECABB6006CD78B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F74E1651FECABB6006CD78B /* main.m */; };
+		2F74E1701FECABB6006CD78B /* QHProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F74E16F1FECABB6006CD78B /* QHProxyTests.m */; };
+		2F74E17B1FECABB6006CD78B /* QHProxyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F74E17A1FECABB6006CD78B /* QHProxyUITests.m */; };
+		2F74E18B1FECAC43006CD78B /* QHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F74E1891FECAC43006CD78B /* QHViewController.m */; };
+		2F74E18C1FECAC43006CD78B /* QHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F74E18A1FECAC43006CD78B /* QHViewController.xib */; };
+		2F74E1901FECB000006CD78B /* QHSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F74E18E1FECB000006CD78B /* QHSubViewController.m */; };
+		2F74E1911FECB000006CD78B /* QHSubViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F74E18F1FECB000006CD78B /* QHSubViewController.xib */; };
+		2F74E1951FECB019006CD78B /* QHSencondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F74E1931FECB019006CD78B /* QHSencondViewController.m */; };
+		2F74E1961FECB019006CD78B /* QHSencondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F74E1941FECB019006CD78B /* QHSencondViewController.xib */; };
+		2F74E19A1FECB25B006CD78B /* QHViewController+blockKits.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F74E1991FECB25B006CD78B /* QHViewController+blockKits.m */; };
+		2F74E19D1FECD77F006CD78B /* QHCProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F74E19C1FECD77F006CD78B /* QHCProxy.m */; };
+		615BAEEC6E473723FB60939C /* libPods-QHProxyUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD63D254B3FC5543FBA8A3C /* libPods-QHProxyUITests.a */; };
+		B112AB4321B7ACD9F334329C /* libPods-QHProxyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7F6F06DEECE9EDF3623C7EC /* libPods-QHProxyTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F74E16C1FECABB6006CD78B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F74E1481FECABB6006CD78B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F74E14F1FECABB6006CD78B;
+			remoteInfo = QHProxy;
+		};
+		2F74E1771FECABB6006CD78B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F74E1481FECABB6006CD78B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F74E14F1FECABB6006CD78B;
+			remoteInfo = QHProxy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		031BCD07BB38EBE9A2E49AEE /* Pods-QHProxy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QHProxy.release.xcconfig"; path = "Pods/Target Support Files/Pods-QHProxy/Pods-QHProxy.release.xcconfig"; sourceTree = "<group>"; };
+		1F8A3C361F7A932CD5A4FE1D /* Pods-QHProxyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QHProxyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QHProxyTests/Pods-QHProxyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F0EDCBFDDCEAB02AA0AB1CC /* Pods-QHProxyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QHProxyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QHProxyUITests/Pods-QHProxyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F74E1501FECABB6006CD78B /* QHProxy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QHProxy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F74E1531FECABB6006CD78B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F74E1541FECABB6006CD78B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F74E1561FECABB6006CD78B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F74E1571FECABB6006CD78B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F74E15A1FECABB6006CD78B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F74E15D1FECABB6006CD78B /* QHProxy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QHProxy.xcdatamodel; sourceTree = "<group>"; };
+		2F74E15F1FECABB6006CD78B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F74E1621FECABB6006CD78B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F74E1641FECABB6006CD78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F74E1651FECABB6006CD78B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F74E16B1FECABB6006CD78B /* QHProxyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QHProxyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F74E16F1FECABB6006CD78B /* QHProxyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHProxyTests.m; sourceTree = "<group>"; };
+		2F74E1711FECABB6006CD78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F74E1761FECABB6006CD78B /* QHProxyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QHProxyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F74E17A1FECABB6006CD78B /* QHProxyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHProxyUITests.m; sourceTree = "<group>"; };
+		2F74E17C1FECABB6006CD78B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F74E1881FECAC43006CD78B /* QHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHViewController.h; sourceTree = "<group>"; };
+		2F74E1891FECAC43006CD78B /* QHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHViewController.m; sourceTree = "<group>"; };
+		2F74E18A1FECAC43006CD78B /* QHViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QHViewController.xib; sourceTree = "<group>"; };
+		2F74E18D1FECB000006CD78B /* QHSubViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHSubViewController.h; sourceTree = "<group>"; };
+		2F74E18E1FECB000006CD78B /* QHSubViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHSubViewController.m; sourceTree = "<group>"; };
+		2F74E18F1FECB000006CD78B /* QHSubViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QHSubViewController.xib; sourceTree = "<group>"; };
+		2F74E1921FECB019006CD78B /* QHSencondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHSencondViewController.h; sourceTree = "<group>"; };
+		2F74E1931FECB019006CD78B /* QHSencondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHSencondViewController.m; sourceTree = "<group>"; };
+		2F74E1941FECB019006CD78B /* QHSencondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QHSencondViewController.xib; sourceTree = "<group>"; };
+		2F74E1981FECB25B006CD78B /* QHViewController+blockKits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QHViewController+blockKits.h"; sourceTree = "<group>"; };
+		2F74E1991FECB25B006CD78B /* QHViewController+blockKits.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "QHViewController+blockKits.m"; sourceTree = "<group>"; };
+		2F74E19B1FECD77F006CD78B /* QHCProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QHCProxy.h; sourceTree = "<group>"; };
+		2F74E19C1FECD77F006CD78B /* QHCProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QHCProxy.m; sourceTree = "<group>"; };
+		372B0AE74B9576A3C70B77FE /* Pods-QHProxyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QHProxyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QHProxyTests/Pods-QHProxyTests.release.xcconfig"; sourceTree = "<group>"; };
+		5B9E9A6F0C82D91DE560B406 /* libPods-QHProxy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QHProxy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AD63D254B3FC5543FBA8A3C /* libPods-QHProxyUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QHProxyUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B3BBE69754A36D6AD2974D /* Pods-QHProxy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QHProxy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QHProxy/Pods-QHProxy.debug.xcconfig"; sourceTree = "<group>"; };
+		C7F6F06DEECE9EDF3623C7EC /* libPods-QHProxyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QHProxyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D083BDF974DDEF7354597C3D /* Pods-QHProxyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QHProxyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QHProxyUITests/Pods-QHProxyUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F74E14D1FECABB6006CD78B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24CE9D8F4FD879274CEE09CD /* libPods-QHProxy.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F74E1681FECABB6006CD78B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B112AB4321B7ACD9F334329C /* libPods-QHProxyTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F74E1731FECABB6006CD78B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				615BAEEC6E473723FB60939C /* libPods-QHProxyUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F74E1471FECABB6006CD78B = {
+			isa = PBXGroup;
+			children = (
+				2F74E1521FECABB6006CD78B /* QHProxy */,
+				2F74E16E1FECABB6006CD78B /* QHProxyTests */,
+				2F74E1791FECABB6006CD78B /* QHProxyUITests */,
+				2F74E1511FECABB6006CD78B /* Products */,
+				7948EC2D1430072AE80CC37D /* Pods */,
+				B74DC59BFD094A065E347C4E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F74E1511FECABB6006CD78B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F74E1501FECABB6006CD78B /* QHProxy.app */,
+				2F74E16B1FECABB6006CD78B /* QHProxyTests.xctest */,
+				2F74E1761FECABB6006CD78B /* QHProxyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F74E1521FECABB6006CD78B /* QHProxy */ = {
+			isa = PBXGroup;
+			children = (
+				2F74E1531FECABB6006CD78B /* AppDelegate.h */,
+				2F74E1541FECABB6006CD78B /* AppDelegate.m */,
+				2F74E1561FECABB6006CD78B /* ViewController.h */,
+				2F74E1571FECABB6006CD78B /* ViewController.m */,
+				2F74E1881FECAC43006CD78B /* QHViewController.h */,
+				2F74E1891FECAC43006CD78B /* QHViewController.m */,
+				2F74E18A1FECAC43006CD78B /* QHViewController.xib */,
+				2F74E1921FECB019006CD78B /* QHSencondViewController.h */,
+				2F74E1931FECB019006CD78B /* QHSencondViewController.m */,
+				2F74E1941FECB019006CD78B /* QHSencondViewController.xib */,
+				2F74E18D1FECB000006CD78B /* QHSubViewController.h */,
+				2F74E18E1FECB000006CD78B /* QHSubViewController.m */,
+				2F74E18F1FECB000006CD78B /* QHSubViewController.xib */,
+				2F74E19B1FECD77F006CD78B /* QHCProxy.h */,
+				2F74E19C1FECD77F006CD78B /* QHCProxy.m */,
+				2F74E1971FECB244006CD78B /* blockKits */,
+				2F74E1591FECABB6006CD78B /* Main.storyboard */,
+				2F74E15F1FECABB6006CD78B /* Assets.xcassets */,
+				2F74E1611FECABB6006CD78B /* LaunchScreen.storyboard */,
+				2F74E1641FECABB6006CD78B /* Info.plist */,
+				2F74E1651FECABB6006CD78B /* main.m */,
+				2F74E15C1FECABB6006CD78B /* QHProxy.xcdatamodeld */,
+			);
+			path = QHProxy;
+			sourceTree = "<group>";
+		};
+		2F74E16E1FECABB6006CD78B /* QHProxyTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F74E16F1FECABB6006CD78B /* QHProxyTests.m */,
+				2F74E1711FECABB6006CD78B /* Info.plist */,
+			);
+			path = QHProxyTests;
+			sourceTree = "<group>";
+		};
+		2F74E1791FECABB6006CD78B /* QHProxyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F74E17A1FECABB6006CD78B /* QHProxyUITests.m */,
+				2F74E17C1FECABB6006CD78B /* Info.plist */,
+			);
+			path = QHProxyUITests;
+			sourceTree = "<group>";
+		};
+		2F74E1971FECB244006CD78B /* blockKits */ = {
+			isa = PBXGroup;
+			children = (
+				2F74E1981FECB25B006CD78B /* QHViewController+blockKits.h */,
+				2F74E1991FECB25B006CD78B /* QHViewController+blockKits.m */,
+			);
+			path = blockKits;
+			sourceTree = "<group>";
+		};
+		7948EC2D1430072AE80CC37D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1B3BBE69754A36D6AD2974D /* Pods-QHProxy.debug.xcconfig */,
+				031BCD07BB38EBE9A2E49AEE /* Pods-QHProxy.release.xcconfig */,
+				1F8A3C361F7A932CD5A4FE1D /* Pods-QHProxyTests.debug.xcconfig */,
+				372B0AE74B9576A3C70B77FE /* Pods-QHProxyTests.release.xcconfig */,
+				2F0EDCBFDDCEAB02AA0AB1CC /* Pods-QHProxyUITests.debug.xcconfig */,
+				D083BDF974DDEF7354597C3D /* Pods-QHProxyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B74DC59BFD094A065E347C4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B9E9A6F0C82D91DE560B406 /* libPods-QHProxy.a */,
+				C7F6F06DEECE9EDF3623C7EC /* libPods-QHProxyTests.a */,
+				7AD63D254B3FC5543FBA8A3C /* libPods-QHProxyUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F74E14F1FECABB6006CD78B /* QHProxy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F74E17F1FECABB7006CD78B /* Build configuration list for PBXNativeTarget "QHProxy" */;
+			buildPhases = (
+				827A16D409385CD64DCC58DD /* [CP] Check Pods Manifest.lock */,
+				2F74E14C1FECABB6006CD78B /* Sources */,
+				2F74E14D1FECABB6006CD78B /* Frameworks */,
+				2F74E14E1FECABB6006CD78B /* Resources */,
+				6E7F75D5CEB52410A8CB5D68 /* [CP] Embed Pods Frameworks */,
+				2A366CE9D4FF7BBBE9D03ABB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QHProxy;
+			productName = QHProxy;
+			productReference = 2F74E1501FECABB6006CD78B /* QHProxy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F74E16A1FECABB6006CD78B /* QHProxyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F74E1821FECABB7006CD78B /* Build configuration list for PBXNativeTarget "QHProxyTests" */;
+			buildPhases = (
+				E1792EFEE822B0136C79D2A0 /* [CP] Check Pods Manifest.lock */,
+				2F74E1671FECABB6006CD78B /* Sources */,
+				2F74E1681FECABB6006CD78B /* Frameworks */,
+				2F74E1691FECABB6006CD78B /* Resources */,
+				ECEC55FD0650EC4AF86F856E /* [CP] Embed Pods Frameworks */,
+				127FF7E9BE3CEDCC50E293F0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F74E16D1FECABB6006CD78B /* PBXTargetDependency */,
+			);
+			name = QHProxyTests;
+			productName = QHProxyTests;
+			productReference = 2F74E16B1FECABB6006CD78B /* QHProxyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F74E1751FECABB6006CD78B /* QHProxyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F74E1851FECABB7006CD78B /* Build configuration list for PBXNativeTarget "QHProxyUITests" */;
+			buildPhases = (
+				24791DAEF4EBEE5E7E180E43 /* [CP] Check Pods Manifest.lock */,
+				2F74E1721FECABB6006CD78B /* Sources */,
+				2F74E1731FECABB6006CD78B /* Frameworks */,
+				2F74E1741FECABB6006CD78B /* Resources */,
+				0F46A71E5C066DCB198391E2 /* [CP] Embed Pods Frameworks */,
+				AB853A0AF16AA27E4E467DBA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F74E1781FECABB6006CD78B /* PBXTargetDependency */,
+			);
+			name = QHProxyUITests;
+			productName = QHProxyUITests;
+			productReference = 2F74E1761FECABB6006CD78B /* QHProxyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F74E1481FECABB6006CD78B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "dada Company";
+				TargetAttributes = {
+					2F74E14F1FECABB6006CD78B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					2F74E16A1FECABB6006CD78B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F74E14F1FECABB6006CD78B;
+					};
+					2F74E1751FECABB6006CD78B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F74E14F1FECABB6006CD78B;
+					};
+				};
+			};
+			buildConfigurationList = 2F74E14B1FECABB6006CD78B /* Build configuration list for PBXProject "QHProxy" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F74E1471FECABB6006CD78B;
+			productRefGroup = 2F74E1511FECABB6006CD78B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F74E14F1FECABB6006CD78B /* QHProxy */,
+				2F74E16A1FECABB6006CD78B /* QHProxyTests */,
+				2F74E1751FECABB6006CD78B /* QHProxyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F74E14E1FECABB6006CD78B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F74E1961FECB019006CD78B /* QHSencondViewController.xib in Resources */,
+				2F74E1631FECABB6006CD78B /* LaunchScreen.storyboard in Resources */,
+				2F74E18C1FECAC43006CD78B /* QHViewController.xib in Resources */,
+				2F74E1601FECABB6006CD78B /* Assets.xcassets in Resources */,
+				2F74E15B1FECABB6006CD78B /* Main.storyboard in Resources */,
+				2F74E1911FECB000006CD78B /* QHSubViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F74E1691FECABB6006CD78B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F74E1741FECABB6006CD78B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F46A71E5C066DCB198391E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QHProxyUITests/Pods-QHProxyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		127FF7E9BE3CEDCC50E293F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QHProxyTests/Pods-QHProxyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24791DAEF4EBEE5E7E180E43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QHProxyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A366CE9D4FF7BBBE9D03ABB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QHProxy/Pods-QHProxy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E7F75D5CEB52410A8CB5D68 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QHProxy/Pods-QHProxy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		827A16D409385CD64DCC58DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QHProxy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB853A0AF16AA27E4E467DBA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QHProxyUITests/Pods-QHProxyUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1792EFEE822B0136C79D2A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QHProxyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECEC55FD0650EC4AF86F856E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QHProxyTests/Pods-QHProxyTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F74E14C1FECABB6006CD78B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F74E19A1FECB25B006CD78B /* QHViewController+blockKits.m in Sources */,
+				2F74E1901FECB000006CD78B /* QHSubViewController.m in Sources */,
+				2F74E1951FECB019006CD78B /* QHSencondViewController.m in Sources */,
+				2F74E1581FECABB6006CD78B /* ViewController.m in Sources */,
+				2F74E15E1FECABB6006CD78B /* QHProxy.xcdatamodeld in Sources */,
+				2F74E18B1FECAC43006CD78B /* QHViewController.m in Sources */,
+				2F74E1661FECABB6006CD78B /* main.m in Sources */,
+				2F74E1551FECABB6006CD78B /* AppDelegate.m in Sources */,
+				2F74E19D1FECD77F006CD78B /* QHCProxy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F74E1671FECABB6006CD78B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F74E1701FECABB6006CD78B /* QHProxyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F74E1721FECABB6006CD78B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F74E17B1FECABB6006CD78B /* QHProxyUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F74E16D1FECABB6006CD78B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F74E14F1FECABB6006CD78B /* QHProxy */;
+			targetProxy = 2F74E16C1FECABB6006CD78B /* PBXContainerItemProxy */;
+		};
+		2F74E1781FECABB6006CD78B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F74E14F1FECABB6006CD78B /* QHProxy */;
+			targetProxy = 2F74E1771FECABB6006CD78B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F74E1591FECABB6006CD78B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F74E15A1FECABB6006CD78B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F74E1611FECABB6006CD78B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F74E1621FECABB6006CD78B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F74E17D1FECABB7006CD78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F74E17E1FECABB7006CD78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F74E1801FECABB7006CD78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B3BBE69754A36D6AD2974D /* Pods-QHProxy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QUL3Z494XF;
+				INFOPLIST_FILE = QHProxy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dada.DadaStaffUITests.QHProxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F74E1811FECABB7006CD78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 031BCD07BB38EBE9A2E49AEE /* Pods-QHProxy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QUL3Z494XF;
+				INFOPLIST_FILE = QHProxy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dada.DadaStaffUITests.QHProxy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F74E1831FECABB7006CD78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F8A3C361F7A932CD5A4FE1D /* Pods-QHProxyTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QUL3Z494XF;
+				INFOPLIST_FILE = QHProxyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dada.DadaStaffUITests.QHProxyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QHProxy.app/QHProxy";
+			};
+			name = Debug;
+		};
+		2F74E1841FECABB7006CD78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 372B0AE74B9576A3C70B77FE /* Pods-QHProxyTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QUL3Z494XF;
+				INFOPLIST_FILE = QHProxyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dada.DadaStaffUITests.QHProxyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QHProxy.app/QHProxy";
+			};
+			name = Release;
+		};
+		2F74E1861FECABB7006CD78B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F0EDCBFDDCEAB02AA0AB1CC /* Pods-QHProxyUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QUL3Z494XF;
+				INFOPLIST_FILE = QHProxyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dada.DadaStaffUITests.QHProxyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QHProxy;
+			};
+			name = Debug;
+		};
+		2F74E1871FECABB7006CD78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D083BDF974DDEF7354597C3D /* Pods-QHProxyUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QUL3Z494XF;
+				INFOPLIST_FILE = QHProxyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dada.DadaStaffUITests.QHProxyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QHProxy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F74E14B1FECABB6006CD78B /* Build configuration list for PBXProject "QHProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F74E17D1FECABB7006CD78B /* Debug */,
+				2F74E17E1FECABB7006CD78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F74E17F1FECABB7006CD78B /* Build configuration list for PBXNativeTarget "QHProxy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F74E1801FECABB7006CD78B /* Debug */,
+				2F74E1811FECABB7006CD78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F74E1821FECABB7006CD78B /* Build configuration list for PBXNativeTarget "QHProxyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F74E1831FECABB7006CD78B /* Debug */,
+				2F74E1841FECABB7006CD78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F74E1851FECABB7006CD78B /* Build configuration list for PBXNativeTarget "QHProxyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F74E1861FECABB7006CD78B /* Debug */,
+				2F74E1871FECABB7006CD78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2F74E15C1FECABB6006CD78B /* QHProxy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2F74E15D1FECABB6006CD78B /* QHProxy.xcdatamodel */,
+			);
+			currentVersion = 2F74E15D1FECABB6006CD78B /* QHProxy.xcdatamodel */;
+			path = QHProxy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2F74E1481FECABB6006CD78B /* Project object */;
+}
